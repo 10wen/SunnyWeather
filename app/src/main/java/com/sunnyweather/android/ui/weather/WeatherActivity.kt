@@ -4,10 +4,8 @@ import android.content.Context
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.ContentInfo
 import android.view.LayoutInflater
 import android.view.View
-import android.view.inputmethod.InputMethod
 import android.view.inputmethod.InputMethodManager
 import android.widget.ImageView
 import android.widget.TextView
@@ -23,7 +21,6 @@ import kotlinx.android.synthetic.main.activity_weather.*
 import kotlinx.android.synthetic.main.forecast.*
 import kotlinx.android.synthetic.main.life_index.*
 import kotlinx.android.synthetic.main.now.*
-import org.w3c.dom.Text
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -74,15 +71,15 @@ class WeatherActivity : AppCompatActivity() {
         }
         drawerLayout.addDrawerListener(object : DrawerLayout.DrawerListener {
             override fun onDrawerStateChanged(newState: Int) {
-                TODO("Not yet implemented")
+
             }
 
             override fun onDrawerSlide(drawerView: View, slideOffset: Float) {
-                TODO("Not yet implemented")
+
             }
 
             override fun onDrawerOpened(drawerView: View) {
-                TODO("Not yet implemented")
+
             }
 
             override fun onDrawerClosed(drawerView: View) {
